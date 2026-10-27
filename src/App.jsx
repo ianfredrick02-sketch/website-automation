@@ -1,4 +1,4 @@
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { BrowserRouter, Link, NavLink, Route, Routes, useLocation } from 'react-router-dom';
 import { galleryImages, imageCategories } from './data/gallery';
 import { studioConfig, services, packages, businessHighlights } from './data/siteConfig';
 
@@ -13,8 +13,6 @@ const whatsappLink = (service = '') => {
 const formatKES = (amount) => `KES ${new Intl.NumberFormat('en-KE').format(amount)}`;
 
 function Layout() {
-  const location = useLocation();
-
   const navItems = [
     { to: '/', label: 'Home' },
     { to: '/portfolio', label: 'Portfolio' },
@@ -753,8 +751,8 @@ function AdminDashboard() {
         <section className="admin-panel">
           <h3>Website settings</h3>
           <ul>
-            <li>Update contact details and opening hours in `src/data/siteConfig.js`.</li>
-            <li>Review WhatsApp configuration in `.env` and `.env.example`.</li>
+            <li>Update contact details and opening hours in src/data/siteConfig.js.</li>
+            <li>Review WhatsApp configuration in .env and .env.example.</li>
             <li>Replace placeholder artwork and demo copy with verified studio content.</li>
           </ul>
         </section>
@@ -763,9 +761,7 @@ function AdminDashboard() {
   );
 }
 
-function Routes() {
-  const location = useLocation();
-
+function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
@@ -783,5 +779,9 @@ function Routes() {
 }
 
 export default function App() {
-  return <Layout />;
+  return (
+    <BrowserRouter>
+      <Layout />
+    </BrowserRouter>
+  );
 }
