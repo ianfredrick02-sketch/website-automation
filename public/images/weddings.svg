@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#171717"/>
+      <stop offset="100%" stop-color="#3f3528"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="600" cy="310" r="170" fill="#d9b87a" opacity="0.18"/>
+  <path d="M220 730C340 560 440 520 600 520C760 520 860 560 980 730" fill="none" stroke="#f4efe6" stroke-width="10" opacity="0.8"/>
+  <rect x="150" y="110" width="900" height="680" fill="none" stroke="#d9b87a" stroke-width="4"/>
+  <text x="600" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" fill="#f5f1ea">About the studio</text>
+  <text x="600" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#d9b87a">Demo placeholder — replace with real photographer portrait</text>
+</svg>

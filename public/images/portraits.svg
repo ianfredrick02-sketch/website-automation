@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#171717"/>
+  <path d="M170 660C330 460 470 390 600 390C740 390 860 460 1030 660" fill="none" stroke="#f4efe6" stroke-width="12" opacity="0.8"/>
+  <circle cx="600" cy="290" r="160" fill="#d9b87a" opacity="0.2"/>
+  <rect x="110" y="110" width="980" height="680" fill="none" stroke="#d9b87a" stroke-width="4"/>
+  <text x="600" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" fill="#f5f1ea">Wedding Photography</text>
+  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#d9b87a">Demo service image</text>
+</svg>

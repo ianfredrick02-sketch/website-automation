@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#171717"/>
+  <circle cx="600" cy="350" r="180" fill="#d9b87a" opacity="0.18"/>
+  <path d="M240 740C350 580 480 520 600 520C715 520 845 580 960 740" fill="none" stroke="#f4efe6" stroke-width="9" opacity="0.85"/>
+  <rect x="100" y="110" width="1000" height="680" fill="none" stroke="#d9b87a" stroke-width="4"/>
+  <text x="600" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" fill="#f5f1ea">Portrait Sessions</text>
+  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#d9b87a">Demo service image</text>
+</svg>
